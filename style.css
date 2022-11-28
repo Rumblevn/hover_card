@@ -76,9 +76,11 @@ div {
     );
     background-position: 0% 0%;
     background-size: 5vmin 5vmin;
+    padding: 5vmin;
     transition: background-position 350ms ease;
-    height: 100%;
-    width: 100%;
+    height: calc(100% - 10vmin);
+    width: calc(100% - 10vmin);
+    z-index: 2;
 }
 
 .card-title,
@@ -117,18 +119,6 @@ div {
   transition: color 250ms ease;
   z-index: 2;
 }
-
-/* -- YouTube Link Styles -- */
-
-#source-link {
-  top: 60px;
-}
-
-#source-link > i {
-  color: rgb(94, 106, 210);
-}
-
-
 
 
 
